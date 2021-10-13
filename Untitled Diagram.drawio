@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-13T08:38:46.139Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36 Edg/94.0.992.47" etag="6Sz-pEzSlMjiMbNWGh_A" version="15.5.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-13T08:52:24.810Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36 Edg/94.0.992.47" etag="3Nxzo0h7D3LQioyftXHL" version="15.5.2" type="github">
   <diagram id="RrYtGsUFkfllBNBSVPI4" name="Page-1">
     <mxGraphModel dx="782" dy="478" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -6,9 +6,60 @@
         <mxCell id="1" parent="0" />
         <object label="&lt;font style=&quot;font-size: 17px&quot;&gt;执行程序&lt;/font&gt;" id="ZWidpsmbYvnLNTX88UcP-1">
           <mxCell style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-            <mxGeometry x="320" y="220" width="120" height="60" as="geometry" />
+            <mxGeometry x="340" y="230" width="120" height="60" as="geometry" />
           </mxCell>
         </object>
+        <mxCell id="ZWidpsmbYvnLNTX88UcP-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=17;" edge="1" parent="1" source="ZWidpsmbYvnLNTX88UcP-2" target="ZWidpsmbYvnLNTX88UcP-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZWidpsmbYvnLNTX88UcP-2" value="参数检测及&lt;br&gt;固件文件校验" style="rhombus;whiteSpace=wrap;html=1;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="310" y="320" width="180" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="ZWidpsmbYvnLNTX88UcP-4" value="" style="endArrow=classic;html=1;rounded=0;fontSize=17;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="ZWidpsmbYvnLNTX88UcP-1" target="ZWidpsmbYvnLNTX88UcP-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="480" as="sourcePoint" />
+            <mxPoint x="430" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZWidpsmbYvnLNTX88UcP-5" value="p2a接口初始化" style="rounded=0;whiteSpace=wrap;html=1;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="100" y="560" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ZWidpsmbYvnLNTX88UcP-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=17;" edge="1" parent="1" source="ZWidpsmbYvnLNTX88UcP-13" target="ZWidpsmbYvnLNTX88UcP-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZWidpsmbYvnLNTX88UcP-13" value="bmc设备查找" style="rhombus;whiteSpace=wrap;html=1;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="320" y="470" width="160" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="ZWidpsmbYvnLNTX88UcP-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=17;" edge="1" parent="1" source="ZWidpsmbYvnLNTX88UcP-14" target="ZWidpsmbYvnLNTX88UcP-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZWidpsmbYvnLNTX88UcP-14" value="p2a接口初始化" style="rhombus;whiteSpace=wrap;html=1;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="325" y="610" width="150" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="ZWidpsmbYvnLNTX88UcP-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=17;" edge="1" parent="1" source="ZWidpsmbYvnLNTX88UcP-14" target="ZWidpsmbYvnLNTX88UcP-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZWidpsmbYvnLNTX88UcP-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=17;" edge="1" parent="1" source="ZWidpsmbYvnLNTX88UcP-19" target="ZWidpsmbYvnLNTX88UcP-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZWidpsmbYvnLNTX88UcP-19" value="&lt;span&gt;固件控制寄存器&lt;/span&gt;&lt;br&gt;&lt;span&gt;初始化&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;fontSize=17;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="325" y="720" width="150" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="ZWidpsmbYvnLNTX88UcP-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=17;" edge="1" parent="1" source="ZWidpsmbYvnLNTX88UcP-21" target="ZWidpsmbYvnLNTX88UcP-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZWidpsmbYvnLNTX88UcP-21" value="spi芯片固件&lt;br&gt;更新" style="rhombus;whiteSpace=wrap;html=1;fontSize=17;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="325" y="870" width="150" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="ZWidpsmbYvnLNTX88UcP-23" value="结束退出" style="rounded=1;whiteSpace=wrap;html=1;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="340" y="1100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZWidpsmbYvnLNTX88UcP-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=17;" edge="1" parent="1" source="ZWidpsmbYvnLNTX88UcP-24" target="ZWidpsmbYvnLNTX88UcP-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZWidpsmbYvnLNTX88UcP-24" value="资源回收" style="rounded=0;whiteSpace=wrap;html=1;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="340" y="1020" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
